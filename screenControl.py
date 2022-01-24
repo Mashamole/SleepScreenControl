@@ -51,6 +51,7 @@ y2 = 922
 # LeftMid(x=1466, y=872)
 # TopLeft(x=1290, y=478)
 # BottomLeft(x=323, y=1877)
+pyautogui.FAILSAFE = False
 dtNow = datetime.now()  # use for Time-Elapsed info [Time Elapsed] -
 
 print(f"\nTimeStamp (START) -> {dtNow.strftime('%H:%M:%S')}")
